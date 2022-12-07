@@ -1,0 +1,85 @@
+/*Seach*/
+.card-Search {
+  background: linear-gradient(to bottom right, #1b2530 10%, rgb(0, 15, 20) 100%);
+  width: 300px;
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: transform 350ms;
+  margin-bottom: 2vh;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  transform: scale(1.08);
+}
+
+/* Add some padding inside the card container */
+.container {
+  /* padding: 2px 16px; */
+  width: 100%;
+}
+
+.row{
+  display: flex;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  padding: 20px;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+main .card_poster{
+  height: 100px;
+  object-fit: cover;
+}
+
+a, a:hover, a:focus, a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+.concert_container{
+  width:100%;
+}
+
+.searchLine{
+  height: 1px;
+  background-color: aqua;
+  border: none;
+  margin-bottom: 0;
+}
+
+.card__price {
+  margin-left: 25px;
+  margin-bottom: 10px;
+  padding: 10px 40px;
+  background-color:rgb(97, 147, 147);
+  border-radius: 10px;
+  color: white;
+  opacity: 0,7;
+  font-weight: bold;
+  font-size:20px;
+  
+}
+.card-Search > img{
+  width:  300px;
+  height: 200px;
+  
+}
+
+main .carousel .slide{
+  text-align: left;
+}
+
+main .grwhite{
+  color: white;
+}
+
+main .carousel .control-dots{
+  margin: 0px 0;
+}
+
+main .container-Search-wrapper{
+  width: 100%;
+}

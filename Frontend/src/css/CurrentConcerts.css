@@ -1,0 +1,80 @@
+
+.card {
+  /* background-color: #1b2530; */
+    background-color: #0b0216;
+
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: transform 350ms;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  transform: scale(1.08);
+}
+
+/* Add some padding inside the card container */
+.container {
+  padding: 2px 16px;
+}
+
+.CCrow{
+  padding:0;
+  justify-content: flex-start;
+}
+
+.row_cards{
+  display: flex;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  padding: 0;
+}
+
+.card{
+  margin-right: 20px;
+  width: 300px;
+  background: linear-gradient(to bottom right, #1b2530 10%, rgb(0, 15, 20) 100%);
+}
+
+.card_poster{
+  width:  300px;
+  height: 100px;
+  object-fit: cover;
+}
+
+a, a:hover, a:focus, a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+.concert_container{
+  width:100%;
+}
+
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #1b2530;
+  border-radius: 20px;
+  border: 6px solid transparent;
+  background-clip: content-box;
+}
+
+::-webkit-scrollbar-thumb:hover {
+
+  background-color: rgb(68, 68, 68);
+
+}
+
+hr{
+  height: 1px;
+  background-color: aqua;
+  border: none;
+}

@@ -1,0 +1,58 @@
+.concert {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin: 2vw;
+  text-shadow: none;
+  height:20%;
+}
+
+.moreConcerts {
+  grid-area: 1;
+  text-align: center;
+  font-size: large;
+}
+
+.concert-location {
+  border: 2px dotted #1b2530;
+  justify-content: center;
+}
+
+.green {
+  border: 2px dotted #1b2530;
+  justify-content: center;
+  font-size: medium;
+  background-color: rgb(33, 217, 26);
+}
+
+.concert a {
+  color: black;
+}
+
+.buy-ticket-btn {
+  background-color: rgb(130 194 194);
+  box-shadow: 0 2px 0 rgb(0 0 0 / 12%),
+    inset 1px -5px 6px 0px rgb(0 0 0 / 12%),
+    inset 0 -1em 1em -0.2em rgb(72 92 106 / 5%);
+  font-family: "Amazon Ember";
+  font-size: 15px;
+  padding: 3vh 6vw;
+  border-radius: 24px;
+  border: none;
+  align-self: flex-start;
+  margin-top: 1vh;
+}
+
+.ticketPrice{
+  grid-area: 1 / 2 / 1 / 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.media-player{
+  display: flex;
+  flex-direction: column;
+  margin: 3vw;
+  justify-content: center;
+}
